@@ -2,7 +2,7 @@ variable "instance_typeeeeee" {
   default = "t3.medium"
 }
 
-variable "tagssssss" {
+variable "tags" {
   default = {
     Name = "roboshop"
     terraform = "true"
