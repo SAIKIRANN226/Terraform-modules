@@ -5,7 +5,9 @@ variable "instance_type" {
 variable "tags" {
   default = {
     Name = "roboshop"
-    terraform = "true"
-    environment = "dev"
+    Terraform = "true"
+    Environment = "dev"
+    Project = "roboshop"
+    Component = "web"
   }
 }
