@@ -5,7 +5,7 @@ resource "aws_instance" "module" {
 }
 
 
-# Ec2-module folder ---> Is nothing but Ec2 module
+# Ec2-module folder ---> Is nothing but we are developing Ec2 module
 # ec2.tf ---> Is nothing but resource definition
 # variables.tf ---> Variables declaration
 # No provider in the module developing, only should be in the user project(roboshop-ec2)
