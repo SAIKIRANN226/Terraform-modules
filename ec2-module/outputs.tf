@@ -9,3 +9,5 @@ output "private_ip" {
 output "instance_id" {
   value = aws_instance.module.id
 }
+
+# This output.tf is just we are publishing few outputs.

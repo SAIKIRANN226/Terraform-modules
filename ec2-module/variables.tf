@@ -10,5 +10,7 @@ variable "instance_type" {
 
 variable "tags" {
   type = map 
-  default = {}
+  default = {} 
 }
+
+# We put tags empty because we dont know for what purpose they are using this module, it is their wish what tags they should want
